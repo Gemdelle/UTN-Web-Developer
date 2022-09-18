@@ -1,0 +1,59 @@
+h1{
+    color: red;
+    background-color: violet;
+    text-align: center;
+    font-family: Cambria;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    color: green;
+}
+
+.destacados{
+    color: orange;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#rojo{
+    width: 300px;
+    height: 400px;
+    background-color: lightcoral;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+#celeste{
+    width: 300px;
+    height: 400px;
+    background-color: lightblue;
+    padding: 20px;
+    box-sizing: border-box; /* Se usan esas opciones juntas siempre que haya padding o border para que el tamaño de la caja  width y height 
+                            se mantenga. */
+    margin-left: 50px;
+    border: 3px solid black;
+    border-right: 5px dashed #ff0000;
+}
+
+
+
+/* 
+Class vs. ID
+
+El ID es para un único elemento, NO se puede repetir.
+La Class sirve para muchos elementos. -> Por lo general se usa este.
+
+*/
+
+/* 
+Regla de CSS
+h2 > tipo de selector: etiqueta y adentro van las distintas propiedades con sus valores.
+*/
