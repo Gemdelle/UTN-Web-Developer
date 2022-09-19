@@ -1,0 +1,19 @@
+/* FONTS
+
+font-family: 'Berkshire Swash', cursive;
+font-family: 'EB Garamond', serif; */
+
+h2{
+    color:brown;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+p{
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+}
+
+
+
+
+

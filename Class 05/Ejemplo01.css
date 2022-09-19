@@ -1,0 +1,27 @@
+.caja{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    box-shadow: 20px 30px 10px black; /* Eje X, Eje Y, Desenfoque, Color */
+    border: 2px solid white;
+}
+
+.caja2{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    padding: 10px;
+    /* border-radius: 15px; */
+    border-radius: 0 30px;
+}
+
+.texto{
+    background-color: yellow;
+    column-count: 2;
+    column-gap: 10px;
+}
+
+.texto p{
+    margin-top: 0;
+}
