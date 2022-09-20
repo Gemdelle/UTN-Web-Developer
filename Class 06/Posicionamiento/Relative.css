@@ -1,0 +1,33 @@
+.contenedor{
+    background-color: lightgray;
+    width: 60%; /* El porcentaje es del total del navegador en el eje X */
+    margin: 0 auto; /* Arriba y abajo   Auto. Sirve para que se adapte automáticamente según la proporción de la pantalla */
+    height: 600px; /*  */
+    /* padding-top: 20px; /* El espacio que se deja DENTRO del elemento. */
+} 
+
+.verde{
+    background-color: lightgreen;
+    width: 90%;
+    margin: 0 auto 20px; /* Arriba - Laterales - Abajo */
+    height: 150px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    /* top + left / right + bottom. No van todas juntas. */
+    /* Posicionamiento relativo: Es el posicionamiento que se mueve en base a donde se ubicó ese elemento. */
+}
+
+.celeste{
+    background-color: lightblue;
+    width: 90%;
+    margin: 0 auto 20px; /* Arriba - Laterales - Abajo */
+    height: 150px;
+}
+
+.amarillo{
+    background-color: yellow;
+    width: 90%;
+    margin: 0 auto 20px; /* Arriba - Laterales - Abajo */
+    height: 150px;
+}
