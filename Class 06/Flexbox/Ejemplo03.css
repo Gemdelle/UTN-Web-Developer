@@ -1,0 +1,16 @@
+/* Propiedad flex-wrap */
+
+.contenedor{ /* Se lee la última línea que aparezca del código, en este caso, el display flex. */
+    background-color: gray;
+    display: inline-flex;/* Ahora los objetos están uno al lado del otro. */
+    flex-wrap: wrap; /* Los agrupa en una cuadrícula */
+    flex-wrap: wrap-reverse;
+}
+
+.item{
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    font-size: 25px;
+}

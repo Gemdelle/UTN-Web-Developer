@@ -1,0 +1,18 @@
+.contenedor{ /* Se lee la última línea que aparezca del código, en este caso, el display flex. */
+    background-color: gray;
+    display: inline-flex;/* Ahora los objetos están uno al lado del otro. */
+    flex-direction: row; /* Los elementos tienen el orden original. */
+    flex-direction: row-reverse; /* Las filas están invertidas. TAMBIÉN se mueven hacia la derecha por la propiedad de flex. Se cambia a inline-flex*/
+
+    /* Columna */
+    flex-direction: column; 
+    flex-direction: column-reverse; 
+}
+
+.item{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    font-size: 25px;
+}
