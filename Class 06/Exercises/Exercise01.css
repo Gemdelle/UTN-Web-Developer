@@ -1,0 +1,40 @@
+/* Falta sacar el margen blanco. */
+
+.contenedor{
+    width: 600px;
+    height: 600px;
+    border: 3px solid black;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box01{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box02{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box03{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
