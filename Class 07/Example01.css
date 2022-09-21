@@ -1,0 +1,16 @@
+
+/* Transformaciones */
+
+.caja{
+    width: 400px;
+    height: 250px;
+    background-color: aqua;
+    font-size: 30px;
+    display: flex;
+    justify-content: center; /* Eje X */
+    align-items: center; /* Eje Y */
+    margin: 100px; /* Separarlo de los bordes. */
+    transform: rotate(25deg);
+    transform: rotate(-25deg);
+    transform: scale(0.5) rotate(5deg);
+}
