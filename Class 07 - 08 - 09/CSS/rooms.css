@@ -1,0 +1,45 @@
+/* 
+font-family: 'Berkshire Swash', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Tangerine', cursive; */
+
+body{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+header{
+    background-color: rgb(167, 177, 157);
+}
+
+h1{
+    color: lightslategray;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+}
+
+h2{
+    color: grey;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    left: -80px;
+}
+
+nav{
+    background-color: rgb(211, 219, 202);
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+
