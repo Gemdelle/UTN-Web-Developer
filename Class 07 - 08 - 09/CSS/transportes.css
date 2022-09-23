@@ -1,0 +1,117 @@
+/* 
+font-family: 'Berkshire Swash', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Tangerine', cursive; */
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+    background-color: #104C8F;
+    padding: 16px;
+}
+
+h1{
+    color: white;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+    font-style: italic;
+    margin: 0;
+}
+
+nav{
+    background-color: #87BAF4;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #4c76a5; 
+}
+
+nav ul li a.activo{
+    background-color: #4c76a5;
+}
+
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding: 40px 0; /* Primer parámetro: arriba y abajo. Segundo parámetro: derecha e izquierda. */
+    margin-top: 20px;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    color: #104C8F;
+    font-weight: 400;
+}
+
+.welcome{
+    width: 75%;
+    padding-right: 15px;
+}
+
+.testimonies{
+    width: 25%;
+}
+
+.columns{
+    display: flex;
+}
+
+.testimony{
+    background-color: lightgray;
+    padding: 16px;
+}
+
+.testimony .quote{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+}
+
+.testimony .author{
+    font-size: 11px;
+    text-align: center;
+    display: block;
+    margin-top: 16px;
+}
+
+.history p{
+    font-size: 12px;
+
+}
+
+.person{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 18%;
+}
