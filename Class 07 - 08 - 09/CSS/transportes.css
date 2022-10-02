@@ -3,16 +3,16 @@ font-family: 'Berkshire Swash', cursive;
 font-family: 'EB Garamond', serif;
 font-family: 'Tangerine', cursive; */
 
-body{
+body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-header{
+header {
     background-color: #104C8F;
     padding-top: 5px;
 }
 
-h1{
+h1 {
     color: white;
     display: inline-block;
     position: relative;
@@ -22,23 +22,23 @@ h1{
     margin: 0;
 }
 
-nav{
+nav {
     background-color: #87BAF4;
     margin-bottom: 20px;
 }
 
-nav ul{
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
 }
 
-nav ul li{
+nav ul li {
     flex-grow: 1;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
     padding: 5px;
@@ -46,70 +46,70 @@ nav ul li a{
     text-align: center;
 }
 
-nav ul li a:hover{
-    background-color: rgba(0, 0, 0, 0.3);
-    background-color: #4c76a5; 
-}
-
-nav ul li a.activo{
+nav ul li a.activo {
     background-color: #4c76a5;
 }
 
-footer{
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #4c76a5;
+}
+
+footer {
     background-color: lightgray;
     text-align: center;
     padding: 40px 0; /* Primer parámetro: arriba y abajo. Segundo parámetro: derecha e izquierda. */
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
-.holder{
+.holder {
     max-width: 960px;
     margin: 0 auto;
 }
 
-h2{
+h2 {
     color: #104C8F;
     font-weight: 400;
 }
 
-.welcome{
+.columns {
+    display: flex;
+}
+
+.welcome {
     width: 75%;
     padding-right: 15px;
 }
 
-.testimonies{
+.testimonies {
     width: 25%;
 }
 
-.columns{
-    display: flex;
-}
-
-.testimony{
+.testimony {
     background-color: lightgray;
     padding: 16px;
 }
 
-.testimony .quote{
+.testimony .quote {
     font-size: 24px;
     font-weight: bold;
     font-style: italic;
     display: block;
 }
 
-.testimony .author{
+.testimony .author {
     font-size: 11px;
     text-align: center;
     display: block;
     margin-top: 16px;
 }
 
-.history p{
+.history p {
     font-size: 12px;
 
 }
 
-.person{
+.person {
     border: 2px solid lightgray;
     border-radius: 10px;
     width: 18%;
@@ -118,33 +118,34 @@ h2{
     box-sizing: border-box;
 }
 
-.person img{
+.person img {
     border-radius: 50%;
     max-width: 65%;
     box-shadow: 0 0 5px black;
     margin: 13px 0 16px;
 }
 
-.people{
+.people {
     display: flex;
     justify-content: space-between;
 }
 
-.person h5, .person h6{
+.person h5,
+.person h6 {
     color: #104C8F;
     font-weight: normal;
     margin: 0;
 }
 
-.person h5{
+.person h5 {
     font-size: 16px;
 }
 
-.person h6{
+.person h6 {
     font-style: italic;
 }
 
-.service{
+.service {
     border: 1px solid grey;
     border-radius: 10px;
     margin: 16px 0;
@@ -154,7 +155,7 @@ h2{
     align-items: center;
 }
 
-.service .info h4{
+.service .info h4 {
     color: #104C8F;
     font-size: 20px;
     font-weight: 500;
@@ -163,57 +164,59 @@ h2{
     padding-bottom: 8px;
 }
 
-.service img{
+.service img {
     max-width: 225px;
     display: block;
     border-radius: 10px;
 }
 
-.service:nth-child(odd){ /* Hijos pares */
+.service:nth-child(odd) {
+    /* Hijos pares */
     flex-direction: row-reverse;
 }
 
-.contact{
+.contact {
     display: flex;
     gap: 25px;
     justify-content: space-between;
 }
 
-.contact section{
+.contact section {
     width: 100%;
 }
 
-.data p{
+.data p {
     font-size: 14px;
 }
 
-.data ul{
+.data ul {
     padding: 0;
     list-style: none;
     font-size: 13px;
     margin-bottom: 5px;
 }
 
-.data ul li{
+.data ul li {
     margin-bottom: 5px;
 }
 
-.form p{
+.form p {
     display: flex;
 }
 
-.form p:nth-child(4){
-    align-items: flex-start; /* Para ubicar 'Mensaje' en la parte inicial del text area. */
+.form p:nth-child(4) {
+    align-items: flex-start;
+    /* Para ubicar 'Mensaje' en la parte inicial del text area. */
 }
 
-.form p label{
+.form p label {
     min-width: 100px;
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
 
-.form p input, 
-.form p textarea{
+.form p input,
+.form p textarea {
     width: 100%;
     background-color: lightgray;
     border-radius: 5px;
@@ -222,16 +225,16 @@ h2{
     padding: 6px;
 }
 
-.form textarea{
+.form textarea {
     resize: none;
     height: 150px;
 }
 
-.icon{
+.icon {
     color: #104C8F;
 }
 
-.form input[type="submit"]{
+.form input[type="submit"] {
     background-color: #4c76a5;
     box-shadow: 0 0 10px gray;
     color: white;
@@ -242,11 +245,10 @@ h2{
     cursor: pointer;
 }
 
-.form input[type="submit"]:hover{
+.form input[type="submit"]:hover {
     background-color: #23384f;
 }
 
-.data ul a{
+.data ul a {
     margin-left: 8px;
 }
-
