@@ -1,0 +1,92 @@
+body{
+    background-color: #332f29;
+}
+
+.container{
+    max-width: 960px; /* El body no se puede limitar a un tamaño, va en el div. */
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    background-color: #8fa68e;
+    padding: 20px; /* Para agrandar el header es más fácil directamente poner el padding antes que agrandar el rectángulo. */
+}
+
+.holder{
+    display: flex;
+}
+
+nav{
+    background-color: #c0392b;
+    width: 30%;
+}
+
+main{
+    background-color: #f7dc6f;
+    width: 40%;
+    padding: 20px;
+}
+
+aside{
+    background-color: #1abc9c;
+    width: 30%;
+    padding: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: #ccc59e;
+}
+
+@media(max-width:480px){
+    
+    body{
+        background-color: beige;
+    }
+
+    header{
+        text-align: center;
+
+    }
+
+    .holder{
+        flex-wrap: wrap;
+    }
+
+    nav{
+        width: 100%;
+        border-bottom: 4px solid #332f29;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    main{
+        width: 100%;
+        border-bottom: 4px solid #332f29;
+    }
+
+    aside{
+        width: 100%;
+        border-bottom: 4px solid #332f29;
+    }
+}
+
+
+

@@ -67,6 +67,10 @@ footer {
     margin: 0 auto;
 }
 
+.homeimg img{
+    max-width: 100%;
+}
+
 h2 {
     color: #104C8F;
     font-weight: 400;
@@ -105,7 +109,7 @@ h2 {
 }
 
 .history p {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .person {
@@ -173,47 +177,9 @@ h2 {
     flex-direction: row-reverse;
 }
 
-/* GALLERY */
-
-.h2gallery{
-    margin-bottom: 0%;
-}
-
-.pgallery{
-    width: 200px;
-}
-
-.images{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.images img{
-    max-width: 200px;
-    margin-bottom: 35px;
-    border-radius: 10px;
-    transition: all 500ms;
-    filter: blur(3px) grayscale(50%);
-}
-
-.images img:hover{
-    scale: 110%;
-    filter: blur(0px) grayscale(0%);
-}
-
-.footergallery{
-    margin: 0%;
-}
-
-/* CONTACT */
-
-.titles h2{
-    margin: 0px 0px 15px 0px;
-}
-
 .contact {
     display: flex;
+    gap: 25px;
     justify-content: space-between;
 }
 
@@ -236,27 +202,19 @@ h2 {
     margin-bottom: 5px;
 }
 
-.data ul li a {
-    margin-left: 8px;
-}
-
-.icon {
-    color: #104C8F;
-}
-
 .form p {
     display: flex;
+}
+
+.form p:nth-child(4) {
+    align-items: flex-start;
+    /* Para ubicar 'Mensaje' en la parte inicial del text area. */
 }
 
 .form p label {
     min-width: 100px;
     display: flex;
     align-items: center;
-}
-
-.form p:nth-child(4) {
-    align-items: flex-start;
-    /* Para ubicar 'Mensaje' en la parte inicial del text area. */
 }
 
 .form p input,
@@ -274,6 +232,10 @@ h2 {
     height: 150px;
 }
 
+.icon {
+    color: #104C8F;
+}
+
 .form input[type="submit"] {
     background-color: #4c76a5;
     box-shadow: 0 0 10px gray;
@@ -289,5 +251,48 @@ h2 {
     background-color: #23384f;
 }
 
+.data ul a {
+    margin-left: 8px;
+}
 
+@media screen and (max-width:550px) {
+    .columns {
+        flex-direction: column;
+    }
 
+    .welcome,
+    .testimonies {
+        width: 100%;
+    }
+
+    .testimonies {
+        display: none;
+    }
+
+    main.holder {
+        padding: 0px 16px;
+    }
+
+    .people {
+        flex-wrap: wrap;
+    }
+
+    .person {
+        width: 47%;
+        margin-bottom: 20px;
+    }
+
+    .service,
+    .service:nth-child(odd){
+        flex-direction: column;
+    }
+
+    .service img{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact{
+        flex-direction: column;
+    }
+}
