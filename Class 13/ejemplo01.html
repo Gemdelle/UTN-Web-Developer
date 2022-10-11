@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var Nombre = 'Gem'; /* var es reasignable */
+        var nombre = 'Mamy';
+        var edad = 24;
+        const apellido = 'Bridyam'; /* const NO es reasignable */
+        const apellido2 = 'Lopez';
+        let sobrenombre = 'Gemyta'; /* let es reasignable SOLO si está dentro de un bloque */
+        let sobrenombre2 = 'Gemu'; 
+
+        document.write('hola soy ' + nombre + '<br>'); /* <br> separa las oraciones entre sí */
+        document.write(`Hola soy ${nombre}. Mi edad es ${edad}.`); /* INTERPOLACIÓN de strings. Las comillas deben ser INVERSAS en el inicio y el final */
+
+        /* document.write(nombre); */ /* Imprime la variable */
+        /* document.write('nombre'); */ /* Imprime el texto entre comillas */
+
+        /* Alt gr + ] + Spacebar = ` */
+        
+        /* ----------------------------------------------------------------------------------------------------------------------------------- */
+        /* Vamos a usar CONST de ahora en más y LET dentro de un bloque */
+        const name = 'Gemy';
+        const age = 24;
+
+        console.log(age); /* Para chequear en el inspector el valor de una variable */
+        console.log(`Hola soy ${nombre}. Mi edad es ${edad}.`);
+        console.log('estoy acá') /* Para chequear en qué parte se trabó el proceso */
+        
+    </script>
+
+    <h2><script>document.write(nombre)</script></h2> 
+
+</body>
+</html>
