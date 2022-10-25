@@ -1,0 +1,14 @@
+.box {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.box.red{
+    background-color: red;
+}
+
+.box.border {
+    border: 2px solid black;
+}
