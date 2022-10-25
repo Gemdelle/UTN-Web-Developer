@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Return the number of p according to the selected button.</h1>
+    <div id="box01" style="border:1px solid blue">
+        <p>Paragraph 01 in Box 01</p>
+        <p>Paragraph 02 in Box 01</p>
+        <p>Paragraph 03 in Box 01</p>
+        <div id="box02" style="border:1px solid red">
+            <p>Paragraph 01 in Box 02</p>
+            <p>Paragraph 02 in Box 02</p>
+        </div>
+    </div>
+    <p>Paragraph 01 outside the box</p>
+    <p>Paragraph 02 outside the box</p>
+
+    <button onclick="allparagraphs()">Shows all of the p in the document.</button>
+    <button onclick="paragraphsbox01()">Shows all of the p in box 01.</button>
+    <button onclick="paragraphsbox02()">Shows all of the p in box 02.</button>
+
+    <script src="ejemplo04.js"></script>
+</body>
+
+</html>
