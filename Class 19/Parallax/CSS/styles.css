@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro {
+    background: url(../Images/01.jpg) 50% 0 fixed;
+    /* Image - Position X - Position Y - Fija (más importante)*/
+    background-size: cover;
+    min-height: 900px;
+    width: 100%;
+}
+
+#block-img2 {
+    background: url(../Images/02.jpg) 50% 0 fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+#block-img3 {
+    background: url(../Images/04.jpg) 50% 0 fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+.block {
+    background-color: black;
+    margin: 0 auto;
+}
+
+.text {
+    color: #ddd;
+    padding: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    text-shadow: 0 3px 4px rgba(0,0, 0, 0.5);
+}

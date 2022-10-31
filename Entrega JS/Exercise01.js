@@ -1,16 +1,25 @@
-const name1 = 'Gem'
-const name2 = 'Hunny'
-const age1 = 41;
+/* 01. User Inputs. */
 
-console.log(`Hola! ${names}, así que tienes ${age} años.`);
+const messageMe = prompt('Ingrese su nombre', '');
+const messageBirthday = prompt('Ingrese el nombre de la persona que cumple años', '');
+let messageAge =  parseInt(prompt('Ingrese la edad que cumple la persona', ''), 10);
 
-/* Terciary operator */
-const age1 = 18;
-const age2= 32;
+/* 02. html Elements. */
 
-const message1 = `La cuota para personas de ${age1} es ${age1 >=21 ? 500 : 300}.`;
-const message2 = `La cuota para personas de ${age1} es ${age2 >=21 ? 500 : 300}.`;
+const me = document.getElementById('me');
+const birthday = document.getElementById('birthday');
+const age = document.getElementById('age');
 
-console.log(message1);
-console.log(message2);
+
+/* 03. Message in case the inserted age is invalid. */
+
+if (isNaN(messageAge) || messageAge < 1 || messageAge > 99) {
+    messageAge = prompt('La edad ingresada no es válida', '');
+}
+
+/* 04. Assign Inputs to html Elements. */
+
+me.innerHTML = messageMe;
+birthday.innerHTML = messageBirthday;
+age.innerHTML = messageAge;
 
