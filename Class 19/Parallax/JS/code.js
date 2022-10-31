@@ -1,7 +1,7 @@
-$(document).ready(function(){
+$(document).ready(function(){ /* Aplicarle lo que está en la función a TODO el documento. */
     $window = $(window);
 
-    $('#intro').height($window.height());
+    $('#intro').height($window.height()); /* Que #intro sea responsive. */
     $window.scroll(function(){
         $('div.background').each(function(index,item){
             let $scroll = $(item);
