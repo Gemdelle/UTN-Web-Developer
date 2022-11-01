@@ -1,20 +1,28 @@
-.button {
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
     width: 100px;
     height: 100px;
     cursor: pointer;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 1px solid white;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pink {
     background-color: pink;
-    color: pink;
 }
 
 .brown {
-
+    background-color: bisque;
 }
 
 .green {
-
+    background-color: lightseagreen;
 }
