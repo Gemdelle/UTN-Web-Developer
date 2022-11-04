@@ -1,14 +1,27 @@
 
-/* import './App.css'; */
-import Header from "./components/layout/Header";
+import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// El segundo Header es llamado directamente para no poner NADA dentro.
+import Header from "./components/layout/Header";
+import Nav from "./components/layout/Nav";
+import Footer from "./components/layout/Footer";
+
+import HomePage from './pages/HomePage';
+import Ejemplo01 from './pages/Ejemplo01';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Header/> 
+      {/* <Header></Header> */} {/* In case we need to write something INSIDE the component. */}
+      <Header />
+      <BrowserRouter>
+        <Nav />
+        <Routes>
+          <Route path='/' element={<HomePage />}></Route>
+          <Route path='/ejemplo01' element={<Ejemplo01 />}></Route>
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </div>
   );
 }

@@ -1,10 +1,8 @@
 const Header = (prop) => {
     return (
-        <div>
-            <p>Hello I'm the Header</p>
-            <p>Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing.</p>
-            <p>Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing. Lorem ipsum dolor sit amet sonectetur adipisicing.</p>
-        </div>
+        <header>
+            <h1>Examples in REACT</h1>
+        </header>
     )
 }
 
