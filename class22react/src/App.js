@@ -9,6 +9,8 @@ import Footer from "./components/layout/Footer";
 import HomePage from './pages/HomePage';
 import Ejemplo01 from './pages/Ejemplo01';
 import Ejemplo02 from './pages/Ejemplo02';
+import Ejemplo03 from './pages/Ejemplo03';
+import Ejemplo04 from './pages/Ejemplo04';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path='/' element={<HomePage />}></Route>
           <Route path='/ejemplo01' element={<Ejemplo01 />}></Route>
           <Route path='/ejemplo02' element={<Ejemplo02 />}></Route>
+          <Route path='/ejemplo03' element={<Ejemplo03 />}></Route>
+          <Route path='/ejemplo04' element={<Ejemplo04 />}></Route>
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -1,7 +1,15 @@
+
+import { Ejemplo01Estado, Ejemplo02Estado } from "../components/state/States";
+import '../styles/styles.css'
+
 const Ejemplo02 = props => {
-    return(
+
+    return (
         <div>
-            Hello I am an example page
+            <h1>State Examples</h1>
+            <Ejemplo01Estado />
+            <hr />
+            <Ejemplo02Estado />
         </div>
     )
 }
