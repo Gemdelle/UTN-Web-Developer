@@ -9,6 +9,7 @@ const Nav = (prop) => {
                 <li><Link to="/ejemplo02">Example 02</Link></li>
                 <li><Link to="/ejemplo03">Example 03</Link></li>
                 <li><Link to="/ejemplo04">Json</Link></li>
+                <li><Link to="/ejemplo05">API</Link></li>
             </ul>
         </nav>
     )

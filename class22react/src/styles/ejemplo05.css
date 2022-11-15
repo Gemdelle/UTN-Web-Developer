@@ -1,0 +1,38 @@
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 250px;
+    margin: 10px;
+}    
+
+.character h4,
+.character h6 {
+    margin: 0;
+}
+
+.character .card {
+    display: flex;
+    justify-content: flex-start;
+    margin: 16px 0;
+}
+
+.character .card .image {
+    max-width: 100px;
+}
+
+.character .card .data {
+    margin-left: 16px;
+}
+
+.character .card .image img {
+    display: block;
+    width: 100px;
+    border-radius: 8px;
+}

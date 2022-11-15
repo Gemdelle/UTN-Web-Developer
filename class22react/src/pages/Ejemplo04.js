@@ -1,8 +1,18 @@
+/* Importar alumnos desde el Json. */
+
+import students from '../data/students.json';
+
 const Ejemplo04 = props => {
     return (
-        <div>
+            <> {/* Permite agregar más elementos, no es necesario que estén dentro de un div. */}
             <h1>HELLO I AM PAGE 04</h1>
-        </div>
+            <ul>
+                {students.map(student => (
+                    <li>{student.name} {student.surname} - ({student.age})</li>
+                )
+                )}
+            </ul>
+            </>
     )
 }
 
