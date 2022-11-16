@@ -1,0 +1,6 @@
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 40px 0; /* Primer parámetro: arriba y abajo. Segundo parámetro: derecha e izquierda. */
+    margin-top: 22px;
+}
