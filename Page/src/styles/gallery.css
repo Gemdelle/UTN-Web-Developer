@@ -1,0 +1,30 @@
+.h2gallery{
+    margin-bottom: 0%;
+}
+
+.pgallery{
+    width: 200px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.images img{
+    max-width: 200px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    transition: all 500ms;
+    filter: blur(3px) grayscale(50%);
+}
+
+.images img:hover{
+    scale: 110%;
+    filter: blur(0px) grayscale(0%);
+}
+
+.footergallery{
+    margin: 0%;
+}

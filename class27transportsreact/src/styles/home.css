@@ -1,0 +1,31 @@
+.columns {
+    display: flex;
+}
+
+.welcome {
+    width: 75%;
+    padding-right: 15px;
+}
+
+.testimonies {
+    width: 25%;
+}
+
+.testimony {
+    background-color: lightgray;
+    padding: 16px;
+}
+
+.testimony .quote {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+}
+
+.testimony .author {
+    font-size: 11px;
+    text-align: center;
+    display: block;
+    margin-top: 16px;
+}

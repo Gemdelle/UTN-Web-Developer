@@ -1,0 +1,13 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #104C8F;
+  font-weight: 400;
+}

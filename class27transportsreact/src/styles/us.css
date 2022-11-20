@@ -1,0 +1,40 @@
+
+.history p {
+    font-size: 14px;
+}
+
+.person {
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 18%;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.person img {
+    border-radius: 50%;
+    max-width: 65%;
+    box-shadow: 0 0 5px black;
+    margin: 13px 0 16px;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+}
+
+.person h5,
+.person h6 {
+    color: #104C8F;
+    font-weight: normal;
+    margin: 0;
+}
+
+.person h5 {
+    font-size: 16px;
+}
+
+.person h6 {
+    font-style: italic;
+}

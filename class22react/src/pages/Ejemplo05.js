@@ -10,7 +10,7 @@ const Ejemplo05 = props => {
     const [characters, setCharacters] = useState([]);
 
     /* Hooks > useEffect, useState */
-    /* fetch > Sirve para traer los datos y es antivo de JS. Se podría ysar también axios. */
+    /* fetch > Sirve para traer los datos y es antivo de JS. Se podría usar también axios. */
     /* async y await > Sirve para manejar errores. */
 
     useEffect(() => {
@@ -24,6 +24,8 @@ const Ejemplo05 = props => {
         loadData();
 
     }, []);
+
+    
 
     return (
         <>
